@@ -146,15 +146,11 @@ header {
 }
 .default.light{
     background-color: #f7f7f7;
-}
-.default.light .default-title{
-    color:black;
+    color: black;
 }
 .default.dark{
     background-color: black;
-}
-.default.dark .default-title{
-    color: white;
+    color:white;
 }
 .default-title,
 .default-desc{
@@ -185,7 +181,7 @@ header {
 
 
 
-/*CSS SPECIFICS ARA*/
+/*CSS SPECIFICS AREA*/
 
 .section-title1{
     display:flex;
@@ -204,4 +200,100 @@ header {
 .section-title1-left p{
     font-size:15px;
     line-height:25px;
+}
+.section-services{
+    display: flex;
+}
+.section-service{
+    flex:1;
+    text-align: center;
+    border-right:1px solid #333;
+    padding:15px;
+}
+.section-service:first-child{
+    border-left:1px solid #333;
+}
+.section-service h4{
+    text-transform: uppercase;
+    margin-top:15px;
+    font-size:20px;
+}
+.section-service p{
+    font-size:14px;
+    color:#999;
+}
+.section-title3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-title3-menu{
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius:30px;
+    display: inline-block;
+    padding:0px 20px;
+}
+.section-title3-menu ul,
+.section-title3-menu li{
+    list-style:none;
+}
+
+.section-title3-menu li{
+    display: inline-block;
+    border-right:1px solid #ccc;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-bottom:3px solid #eee;
+    cursor:pointer;
+}
+.section-title3-menu .active{
+    border-bottom:3px solid #B28756;
+}
+.section-title3-menu li:hover{
+    border-bottom:3px solid #B28756;
+}
+.section-title3-menu li:last-child{
+    border-right:0;
+}
+.section-title3-photos{
+    width: 100vw;
+    max-width:1000px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+.section-title3-photo{
+    width:250px;
+}
+.section-title3-photoarea{
+    margin:10px;
+    width:230px;
+    height:130px;
+    cursor:pointer;
+}
+.section-title3-photoarea img{
+    width:inherit;
+    height:inherit;
+}
+.section-title3-photoarea .photoarea-info{
+    position:absolute;
+    width:inherit;
+    height:inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+    display:none;
+    color:white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photoarea-info h5{
+    text-transform: uppercase;
+    font-size:18px;
+    font-weight: 600;
+}
+.section-title3-photoarea:hover .photoarea-info{
+    display: flex;
 }
