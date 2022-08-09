@@ -92,6 +92,7 @@ header {
 .banner .slide{
     width: 100vw;
     height: 100%;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -296,4 +297,32 @@ header {
 }
 .section-title3-photoarea:hover .photoarea-info{
     display: flex;
+}
+
+.team{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/bg.jpg);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-team-area{
+     
+}
+.section-team-sliders{
+    width:680px;
+    overflow: hidden;
+    display: flex;
+    background-color: #ccc; 
+}
+.section-team-slide{
+    background-color: white;
+    width:200px;
+    min-width: 200px;
+    max-width: 200px;
+    height:100%;
+    max-height: 300px;
+    margin-left:20px;
+    
 }
