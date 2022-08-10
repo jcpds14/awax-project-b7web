@@ -307,22 +307,120 @@ header {
     flex-direction: column;
     justify-content: center;
 }
-.section-team-area{
-     
-}
+
 .section-team-sliders{
-    width:680px;
+    width:820px;
     overflow: hidden;
     display: flex;
-    background-color: #ccc; 
+    
 }
 .section-team-slide{
     background-color: white;
-    width:200px;
-    min-width: 200px;
-    max-width: 200px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    min-width: 250px;
+    max-width: 250px;
     height:100%;
     max-height: 300px;
     margin-left:20px;
-    
+    padding: 30px;
+}
+.section-team--avatar{
+    width:150px;
+    height:auto;
+}
+.section-team--name{
+    text-transform:uppercase;
+    font-size:17px;
+    font-weight: 600;
+    margin-top:30px;
+}
+.section-team--role{
+    color: #999;
+}
+.section-team--social{
+    display: flex;
+    margin-top:20px;
+}
+.section-team--social a{
+    background-color: #999;
+    width: 25px;
+    height:25px;
+    margin-right:10px;
+    filter: opacity(0.5);
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-team--social a:hover{
+    background-color: #B28756;
+    filter: none;
+}
+.team-sliders-pointers{
+    display:flex;
+    margin-top:30px;
+    justify-content: center;
+}
+.team-sliders-pointers .pointer{
+    width:15px;
+    height:15px;
+    border:2px solid #B28756;
+    border-radius:8px;
+    margin-left:5px;
+    margin-right:5px;
+    cursor: pointer;
+}
+.team-sliders-pointers .pointer.active{
+    background-color: #B28756;
+}
+.section-happy-clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+.happy-clients-box{
+    display: flex;
+    overflow: hidden;
+    width: 700px;
+}
+.section-happy-clients--content{
+    min-width: 700px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+.title-text h3{
+    font-size: 20px;
+    margin-top:20px;
+}
+.title-text h4{
+    font-weight:600;
+    margin-top:10px;
+}
+.title-text p{
+    margin-top:15px;
+}
+.happy-sliders-pointers{
+    display:flex;
+    margin-top:30px;
+    justify-content: center;
+}
+.happy-sliders-pointers .pointer{
+    width:15px;
+    height:15px;
+    border:2px solid #B28756;
+    border-radius:8px;
+    margin-left:5px;
+    margin-right:5px;
+    cursor: pointer;
+}
+.happy-sliders-pointers .pointer.active{
+    background-color: #B28756;
 }
