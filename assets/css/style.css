@@ -424,3 +424,13 @@ header {
 .happy-sliders-pointers .pointer.active{
     background-color: #B28756;
 }
+.adbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.adbox img{
+    margin-right:10px;
+    margin-left: 10px;
+}
