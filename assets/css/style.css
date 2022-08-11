@@ -171,7 +171,7 @@ header {
 }
 .default-body{
     max-width:1000px;
-    margin: auto;
+   margin: auto;
 }
 
 
@@ -433,4 +433,55 @@ header {
 .adbox img{
     margin-right:10px;
     margin-left: 10px;
+}
+.default-body.price{
+    width: 1000px;
+    display: flex;
+}
+.price-box{
+    display: flex;    
+}
+.price-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0px 5px;
+}
+.price-details h5{
+    text-transform: uppercase;
+}
+.value strong{
+    font-size:30px;
+    font-weight: 600;
+    margin-top:10px;
+}
+.value p{
+    color: #ccc;
+    text-transform: uppercase;
+    margin-bottom:10px;
+}
+.price-details ul,
+.price-details li{
+    list-style: none;
+}
+.button.price{
+    width: 100px;
+    margin-bottom:10px;
+    font-weight: 600;
+    background-color: #333;
+    cursor: pointer;
+}
+.button.price:hover{
+    background-color: #B28756;
+}
+.default.light.premium{
+    background-color: white;
+}
+.bookbox{
+    background-color: #d7a56d;
 }
